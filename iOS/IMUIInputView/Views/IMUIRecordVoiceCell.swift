@@ -150,7 +150,7 @@ class IMUIRecordVoiceCell: UICollectionViewCell, IMUIFeatureCellProtocol {
     self.sendVoiceBtn.isHidden = true
     self.playVoiceBtn.isHidden = true
     self.playVoiceBtn.progress = 0
-    self.timeLable.text = "按住说话"
+    self.timeLable.text = ""
   }
 
   // -MARK: Play Voice
